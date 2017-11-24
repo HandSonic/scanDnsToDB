@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/mysql_controller.cpp.o CMakeFiles/untitled2.dir/core.cpp.o CMakeFiles/untitled2.dir/dns.cpp.o  -o untitled2 -lmysqlclient -lldns 

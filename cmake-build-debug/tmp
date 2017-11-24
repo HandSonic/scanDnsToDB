@@ -1,0 +1,9 @@
+CREATE TABLE `domain` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `md51` char(32) NOT NULL,
+  `domain` varchar(255) NOT NULL,
+  `ip` varchar(255) NOT NULL,
+  `md52` char(32) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `md51` (`md51`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
